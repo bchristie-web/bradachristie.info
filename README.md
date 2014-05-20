@@ -3,7 +3,7 @@ bradachristie.info
 
 ### Summary
 
-Repository containing the complete source of [bradachristie.info][1].
+Repository containing the complete source of [bradachristie.info][home].
 
 ### Resources:
 
