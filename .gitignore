@@ -147,7 +147,9 @@ publish/
 
 # NuGet Packages Directory
 packages/*
+src/packages/*
 !packages/repositories.config
+!src/packages/repositories.config
 
 # Enable "build/" folder in the NuGet Packages folder since
 # NuGet packages use it for MSBuild targets.
