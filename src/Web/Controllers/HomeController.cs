@@ -5,11 +5,11 @@ namespace Web.Controllers
     [RoutePrefix("Home")]
     public class HomeController : Controller
     {
-        [Route("~/", Name = "Home")]
-        [Route("Index")]
+        [Route("~/", Name = "Home", Order = 1)]
+        [Route("Index", Order = 2)]
         public ActionResult Index()
         {
-            return Content("Hello, world!");
+            return View();
         }
     }
 }

@@ -1,0 +1,27 @@
+@font-face {
+    font-family:'quicksandregular';
+    src: url('../../fonts/quicksand-regular-webfont.eot');
+    src: url('../../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'quicksandbold';
+    src: url('../../fonts/quicksand-bold-webfont.eot');
+    src: url('../../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/quicksand-bold-webfont.woff') format('woff'),
+         url('../../fonts/quicksand-bold-webfont.ttf') format('truetype'),
+         url('../../fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h-feed, .h-feed li{font:100%/1 'quicksandregular', sans-serif;color:#fff}
+.var-chromeless .tweet{padding:0 2px 25px 0}
+.permalink{display:none}
+.tweet .e-entry-title{font-family:'quicksandbold', sans-serif}
+.footer{display:none}
+.u-photo, .full-name, .inline-media{display:none}

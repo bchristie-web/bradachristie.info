@@ -193,6 +193,43 @@
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Template\css\main.css" />
+    <Content Include="Template\css\normalize.css" />
+    <Content Include="Template\fonts\quicksand-bold-webfont.svg" />
+    <Content Include="Template\fonts\quicksand-light-webfont.svg" />
+    <Content Include="Template\fonts\quicksand-regular-webfont.svg" />
+    <Content Include="Template\img\icon-more.png" />
+    <Content Include="Template\img\icon-social.png" />
+    <Content Include="Template\img\loading.gif" />
+    <Content Include="Template\img\marker.png" />
+    <Content Include="Template\img\me.jpg" />
+    <Content Include="Template\img\me.png" />
+    <Content Include="Template\img\work-photo-1.jpg" />
+    <Content Include="Template\img\work-photo-2.jpg" />
+    <Content Include="Template\img\work-photo-3.jpg" />
+    <Content Include="Template\img\work-photo-4.jpg" />
+    <Content Include="Template\img\work-photo-5.jpg" />
+    <Content Include="Template\img\work-photo-6.jpg" />
+    <Content Include="Template\img\work-thumb-1.jpg" />
+    <Content Include="Template\img\work-thumb-2.jpg" />
+    <Content Include="Template\img\work-thumb-3.jpg" />
+    <Content Include="Template\img\work-thumb-4.jpg" />
+    <Content Include="Template\img\work-thumb-5.jpg" />
+    <Content Include="Template\img\work-thumb-6.jpg" />
+    <Content Include="Template\js\jquery-1.10.1.min.js" />
+    <Content Include="Template\js\modernizr-2.6.2.min.js" />
+    <Content Include="Template\js\PIE.htc" />
+    <Content Include="Template\js\scripts.js" />
+    <Content Include="Template\plugins\cycle2\jquery.cycle2.min.js" />
+    <Content Include="Template\plugins\mCustomScrollbar\jquery.mCustomScrollbar.css" />
+    <Content Include="Template\plugins\mCustomScrollbar\jquery.mCustomScrollbar.js" />
+    <Content Include="Template\plugins\ope-page-nav\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="Template\plugins\ope-page-nav\jquery.nav.js" />
+    <Content Include="Template\plugins\ope-page-nav\jquery.scrollTo.js" />
+    <Content Include="Template\plugins\quicksand\jquery.quicksand.js" />
+    <Content Include="Template\plugins\tweets-customize\customize-twitter-1.1.min.js" />
+    <Content Include="Template\plugins\tweets-customize\tweets.css" />
+    <Content Include="Template\plugins\validate\jquery.validate.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -216,6 +253,18 @@
     </Content>
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.11.1.min.map" />
+    <Content Include="Template\fonts\quicksand-bold-webfont.eot" />
+    <Content Include="Template\fonts\quicksand-bold-webfont.ttf" />
+    <Content Include="Template\fonts\quicksand-bold-webfont.woff" />
+    <Content Include="Template\fonts\quicksand-light-webfont.eot" />
+    <Content Include="Template\fonts\quicksand-light-webfont.ttf" />
+    <Content Include="Template\fonts\quicksand-light-webfont.woff" />
+    <Content Include="Template\fonts\quicksand-regular-webfont.eot" />
+    <Content Include="Template\fonts\quicksand-regular-webfont.ttf" />
+    <Content Include="Template\fonts\quicksand-regular-webfont.woff" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -226,7 +275,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
