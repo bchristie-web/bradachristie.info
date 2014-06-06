@@ -182,12 +182,18 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\References.pdf" />
+    <Content Include="Content\Resume.pdf" />
     <None Include="Scripts\jquery-1.11.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.11.1.js" />
     <Content Include="Scripts\jquery-1.11.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.7.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
@@ -198,6 +204,8 @@
     <Content Include="Template\fonts\quicksand-bold-webfont.svg" />
     <Content Include="Template\fonts\quicksand-light-webfont.svg" />
     <Content Include="Template\fonts\quicksand-regular-webfont.svg" />
+    <Content Include="Template\img\bradachristie-img.png" />
+    <Content Include="Template\img\bradachristie-thumb.png" />
     <Content Include="Template\img\icon-more.png" />
     <Content Include="Template\img\icon-social.png" />
     <Content Include="Template\img\loading.gif" />
@@ -217,6 +225,8 @@
     <Content Include="Template\img\work-thumb-5.jpg" />
     <Content Include="Template\img\work-thumb-6.jpg" />
     <Content Include="Template\js\jquery-1.10.1.min.js" />
+    <Content Include="Template\js\jquery-migrate-1.2.1.js" />
+    <Content Include="Template\js\jquery-migrate-1.2.1.min.js" />
     <Content Include="Template\js\modernizr-2.6.2.min.js" />
     <Content Include="Template\js\PIE.htc" />
     <Content Include="Template\js\scripts.js" />
@@ -244,6 +254,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -265,6 +276,12 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\_About.cshtml" />
+    <Content Include="Views\Home\_Resume.cshtml" />
+    <Content Include="Views\Home\_Portfolio.cshtml" />
+    <Content Include="Views\Home\_Testimonials.cshtml" />
+    <Content Include="Views\Home\_Contacts.cshtml" />
+    <Content Include="Template\js\jquery-1.10.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -274,7 +291,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

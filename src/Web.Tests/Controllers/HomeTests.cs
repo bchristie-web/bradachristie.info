@@ -14,7 +14,7 @@ namespace Web.Tests.Controllers
             HomeController controller = new HomeController();
 
             // Act
-            ContentResult result = controller.Index() as ContentResult;
+            ViewResult result = controller.Index() as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);

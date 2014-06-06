@@ -110,8 +110,8 @@
     ],
         
     // Latitude and longitude for your location goes here
-    lat = z55.750497,
-    lng = 37.616243,
+    lat = 42.87935, //55.750497,
+    lng = -71.50343, //37.616243,
 
     // Create a new StyledMapType object, passing it the array of styles,
     // as well as the name to be displayed on the map type control.
@@ -134,7 +134,7 @@
     marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        icon: "assets/img/marker.png"
+        icon: "/Template/img/marker.png"
     });
         
     // Associate the styled map with the MapTypeId and set it to display.
@@ -146,9 +146,11 @@
         errorClass: "inp-error",
         validClass: "inp-success",
         rules: {
-            email: {
+            Name: true,
+            Email: {
                 email: true
-            }
+            },
+            Message: true
         }
     });
 
@@ -161,7 +163,7 @@
             dataString = $(".feedback-form").serialize();
             $.ajax({
                 type: "POST",
-                url: "send.php",
+                url: "/Home/Contact",
                 data: dataString,
                 success: function(data) {
                     $('.feedback-form .loading').remove();
@@ -177,7 +179,7 @@
 
     // Tweets custom styling
     var options = {
-        "url": "assets/plugins/tweets-customize/tweets.css"
+        "url": "/Template/plugins/tweets-customize/tweets.css"
     };
     CustomizeTwitterWidget(options);
 

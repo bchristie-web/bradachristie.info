@@ -1,0 +1,57 @@
+﻿@model Web.Models.ContactViewModel
+<!-- BEGIN CONTACTS SECTION -->
+<section id="contacts" class="cont-sec contacts-sec">
+    <div class="sec-title">
+        <div class="container">
+            <h2>Contact Information</h2>
+        </div>
+    </div>
+    <!-- BEGIN CONTACTS -->
+    <div class="contacts">
+        <div id="map" class="map"></div>
+        <div class="inner">
+            Address: <span class="adr">36 Berkley St, Merrimack, NH 03054 (USA)</span><br>
+            Email: <span class="email">contact@bradachristie.info</span><br>
+            Phone: <span class="tel">+1 (508) 657-4387</span><br>
+        </div>
+    </div>
+    <!-- END CONTACTS -->
+    <div class="cont-b-3">
+        <div class="container">
+            <div class="cols">
+                <div class="col col-1-2" id="contact-form">
+                    <h3>Contact me</h3>
+                    <!-- BEGIN CONTACT FORM -->
+                    @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "feedback-form" }))
+                    {
+                        <div class="inp-b">
+                            @Html.TextBoxFor(x => x.Name, new { placeholder = "Name", @class = "required" })
+                            @*<input type="text" placeholder="Name" name="name" class="required">*@
+                        </div>
+                        <div class="inp-b">
+                            @Html.TextBoxFor(x => x.Email, new { placeholder = "Email", @class = "required" })
+                            @*<input type="text" placeholder="Mail" name="email" class="required">*@
+                        </div>
+                        <div class="inp-b">
+                            @Html.TextAreaFor(x => x.Message, new { placeholder = "Message", @class = "required" })
+                            @*<textarea placeholder="Message" name="message" class="required"></textarea>*@
+                        </div>
+                        <div class="inp-b">
+                            <input type="submit" value="Send" class="btn">
+                        </div>
+                    }
+                    <!-- END CONTACT FORM -->
+                </div>
+                <div class="col col-1-2">
+                    <h3>Tweets</h3>
+                    <!-- BEGIN TWEETS -->
+                    <div class="tweet">
+                        <a class="twitter-timeline" href="https://twitter.com/search?q=%23bradachristie.info" data-widget-id="474271853188358144" data-theme="dark" data-link-color="#72B5E5" data-chrome="noheader nofooter noborders transparent" data-tweet-limit="3">Tweets by @@bradachristie</a>
+                    </div>
+                    <!-- END TWEETS -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END CONTACTS SECTION -->
